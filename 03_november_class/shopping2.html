@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background-color: #232f3e;
+      color: white;
+      padding: 15px 0;
+    }
+
+    nav {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      width: 95%;
+      margin: auto;
+    }
+
+    .item {
+      background-color: white;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+      box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+    }
+
+    .item img {
+      width: 160px;
+      height: 160px;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+
+    h2 {
+      text-align: center;
+      background-color: #ff9900;
+      color: white;
+      padding: 10px;
+      margin: 30px 0 15px;
+      border-radius: 8px;
+      font-size: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    b {
+      color: #007185;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Amazon-Emblem.jpg" height="100" width="400" alt="Amazon Logo"><br>
+    <h1>Online Shopping Store</h1>
+  </header>
+
+  <nav>
+    <label>Laptops:</label>
+    <select>
+      <option>Lenovo Thinkbook</option>
+      <option>HP Victus</option>
+      <option>Asus Vivobook</option>
+      <option>Lenovo Ideapad</option>
+    </select>
+
+    <label> | Mobiles:</label>
+    <select>
+      <option>One Plus Nord CE 2</option>
+      <option>I Phone 17 Pro</option>
+      <option>Realme 7 Pro</option>
+      <option>Realme Narzo N65</option>
+    </select>
+
+    <label> | Toys:</label>
+    <select>
+      <option>Doraemon</option>
+      <option>Barbie Doll</option>
+      <option>Hotwheels</option>
+      <option>Teddy Bear</option>
+    </select>
+
+    <label> | Watches:</label>
+    <select>
+      <option>Camy</option>
+      <option>Rolex</option>
+      <option>Apple Smartwatch</option>
+      <option>Titan</option>
+    </select>
+  </nav>
+
+
+  <div class="section" style="background-color:#fff7e6;">
+    <h2>💻 Laptops</h2>
+    <div class="grid">
+      <div class="item"><img src="thinkbook.webp"><br>Lenovo Thinkbook<br><b>Rs.51,990</b></div>
+      <div class="item"><img src="victus.jpg"><br>HP Victus<br><b>Rs.66,990</b></div>
+      <div class="item"><img src="vivobook.jpg"><br>Asus Vivobook<br><b>Rs.45,590</b></div>
+      <div class="item"><img src="ideapad.png"><br>Lenovo Ideapad<br><b>Rs.42,490</b></div>
+    </div>
+  </div>
+
+
+  <div class="section" style="background-color:#e6f9ff;">
+    <h2>📱 Mobiles</h2>
+    <div class="grid">
+      <div class="item"><img src="oneplus.png"><br>One Plus Nord CE 2<br><b>Rs.19,000</b></div>
+      <div class="item"><img src="iphone.webp"><br>I Phone 17 Pro<br><b>Rs.1,34,900</b></div>
+      <div class="item"><img src="realme7.webp"><br>Realme 7 Pro<br><b>Rs.50,999</b></div>
+      <div class="item"><img src="realmenarzp.jpg"><br>Realme Narzo N65<br><b>Rs.30,999</b></div>
+    </div>
+  </div>
+
+
+  <div class="section" style="background-color:#f9e6ff;">
+    <h2>🧸 Toys</h2>
+    <div class="grid">
+      <div class="item"><img src="doraemon.webp"><br>Doraemon<br><b>Rs.600</b></div>
+      <div class="item"><img src="barbie.webp"><br>Barbie Doll<br><b>Rs.1,000</b></div>
+      <div class="item"><img src="hotwheels.jpg"><br>Hotwheels<br><b>Rs.2,000</b></div>
+      <div class="item"><img src="teddybear.jpg"><br>Teddy Bear<br><b>Rs.500</b></div>
+    </div>
+  </div>
+
+
+  <div class="section" style="background-color:#e8f8e8;">
+    <h2>⌚ Watches</h2>
+    <div class="grid">
+      <div class="item"><img src="titan.jpg"><br>Titan<br><b>Rs.50,000</b></div>
+      <div class="item"><img src="camy.webp"><br>Camy Original<br><b>Rs.20,000</b></div>
+      <div class="item"><img src="applesmartwatch.jpg"><br>Apple Smartwatch<br><b>Rs.1,00,099</b></div>
+      <div class="item"><img src="rolex.webp"><br>Rolex<br><b>Rs.15,996</b></div>
+    </div>
+  </div>
+
+</body>
+</html>
