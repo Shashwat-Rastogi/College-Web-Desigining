@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Products</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-table {
+     
+      border-collapse: collapse;
+      margin: 30px auto;
+      width: 90%;
+      table-layout: fixed;
+    }
+
+    .main-table td {
+      vertical-align: top;
+      text-align: center;
+      width: 50%;
+      padding: 10px;
+    }
+
+  
+    .sub-table {
+      border: 2px solid black;
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+    }
+
+    .sub-table th {
+        
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      background-color:#344fa0;
+    }
+
+    img {
+      height: 150px;
+      width: auto;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 10px;
+      background-color: azure;
+    }
+
+    hr {
+      width: 90%;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <img src="Amazon-Emblem.jpg" width=100% alt="Amazon Logo">
+  </center>
+
+  <nav>
+    <label for="laptop">Laptop:</label>
+    <select>
+      <option>LENOVO THINKBOOK</option>
+      <option>HP VICTUS</option>
+      <option>LENOVO IDEAPAD</option>
+      <option>ASUS VIVOBOOK</option>
+    </select>
+
+    <label for="mobile"> | Mobile:</label>
+    <select>
+      <option>ONE PLUS NORD CE 2</option>
+      <option>I PHONE 17</option>
+      <option>REALME 7 PRO</option>
+      <option>REALME NARZO N65</option>
+    </select>
+
+    <label for="toys"> | Toys:</label>
+    <select>
+      <option>TEDDY BEAR</option>
+      <option>DORAEMON</option>
+      <option>BARBIE DOLL</option>
+      <option>HOTWHEELS</option>
+    </select>
+
+    <label for="watches"> | Watches:</label>
+    <select>
+      <option>TITAN</option>
+      <option>CAMY</option>
+      <option>APPLE SMARTWATCH</option>
+      <option>ROLEX</option>
+    </select>
+  </nav>
+
+
+  <table class="main-table">
+    <tr>
+
+      <td>
+        <table class="sub-table">
+          <tr>
+            <th><img src="thinkbook.webp"><br>Lenovo Thinkbook<br>Rs.51,990</th>
+            <th><img src="victus.jpg"><br>HP Victus<br>Rs.66,990</th>
+          </tr>
+          <tr>
+            <th><img src="ideapad.png"><br>Lenovo Ideapad<br>Rs.40,500</th>
+            <th><img src="vivobook.jpg"><br>Asus Vivobook<br>Rs.70,500</th>
+          </tr>
+        </table>
+      </td>
+
+    
+      <td>
+        <table class="sub-table">
+          <tr>
+            <th><img src="oneplus.png"><br>OnePlus Nord CE 2<br>Rs.20,000</th>
+            <th><img src="realme7.webp"><br>Realme 7 Pro<br>Rs.15,999</th>
+          </tr>
+          <tr>
+            <th><img src="realmenarzp.jpg"><br>Realme Narzo N65<br>Rs.16,890</th>
+            <th><img src="iphone.webp"><br>iPhone 17<br>Rs.2,00,000</th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr>
+   
+      <td>
+        <table class="sub-table">
+          <tr>
+            <th><img src="hotwheels.jpg"><br>Hot Wheels<br>Rs.2000</th>
+            <th><img src="doraemon.webp"><br>Doraemon<br>Rs.599</th>
+          </tr>
+          <tr>
+            <th><img src="barbie.webp"><br>Barbie Doll<br>Rs.1999</th>
+            <th><img src="teddybear.jpg"><br>Teddy Bear<br>Rs.799</th>
+          </tr>
+        </table>
+      </td>
+
+   
+      <td>
+        <table class="sub-table">
+          <tr>
+            <th><img src="rolex.webp"><br>Rolex<br>Rs.99,999</th>
+            <th><img src="applesmartwatch.jpg"><br>Apple Smartwatch<br>Rs.1,99,999</th>
+          </tr>
+          <tr>
+            <th><img src="titan.jpg"><br>Titan<br>Rs.59,999</th>
+            <th><img src="camy.webp"><br>Camy<br>Rs.69,999</th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
+
